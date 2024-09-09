@@ -10,7 +10,7 @@ const Admin = () => {
   return (
     <div className="admin">
 
-    <h1>Admin</h1>
+    <h1>Admin para Admin</h1>
 
     {/* Ícone de voltar */}
     <img 
