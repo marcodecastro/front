@@ -31,7 +31,7 @@ const Membro = () => {
 
     try {
       //const data = await fetchWithToken('http://localhost:5000/api/membro', {
-      const data = await fetchWithToken('https://server-nv02.onrender.com:5000/api/membro', {
+      const data = await fetchWithToken('https://server-nv02.onrender.com/api/membro', {
         method: 'POST',
         body: JSON.stringify({
           nome: memberName,
